@@ -3,7 +3,7 @@ import React from 'react';
 import { MDBListGroup, MDBListGroupItem, MDBIcon } from 'mdbreact';
 import { NavLink } from 'react-router-dom';
 
-const TopNavigation = () => {
+const SideNavigation = () => {
     return (
         <div className="sidebar-fixed position-fixed">
             <a href="#!" className="logo-wrapper waves-effect">
@@ -52,4 +52,4 @@ const TopNavigation = () => {
     );
 }
 
-export default TopNavigation;
+export default SideNavigation;
